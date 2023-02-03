@@ -1,0 +1,198 @@
+{
+    "user":{
+        "username": "Isiakpon",
+        "password": "james123R",
+        "displayName": "Julius",
+
+    "info":{
+        "email":"",
+        "phoneNumber": "",
+        "currentLocation": "",
+        "openToNewOpportunities": "",
+        "theme_name": ""
+
+
+
+    },
+
+    "User_info": {
+        "type": "object",
+        "properties": {
+          "email": {
+            "type": "string"
+          },
+          "phoneNumber": {
+            "type": "string"
+          },
+          "currentLocation": {
+            "type": "string"
+          },
+          "openToNewOpportunities": {
+            "type": "boolean"
+          },
+          "profileIsPublic": {
+            "type": "boolean"
+          },
+          "theme_name": {
+            "type": "string"
+          }
+        }
+      },
+      "User_profile_experience": {
+        "type": "object",
+        "properties": {
+          "jobTitle": {
+            "type": "string"
+          },
+          "jobDescription": {
+            "type": "string"
+          },
+          "details": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "dateStart": {
+            "type": "string"
+          },
+          "dateEnd": {
+            "type": "string"
+          },
+          "company": {
+            "type": "string"
+          },
+          "location": {
+            "type": "string"
+          }
+        }
+      },
+      "User_profile_education": {
+        "type": "object",
+        "properties": {
+          "institution": {
+            "type": "string"
+          },
+          "programTitle": {
+            "type": "string"
+          },
+          "programDescription": {
+            "type": "string"
+          },
+          "dateStart": {
+            "type": "string"
+          },
+          "dateEnd": {
+            "type": "string"
+          },
+          "completed": {
+            "type": "boolean"
+          },
+          "location": {
+            "type": "string"
+          },
+          "topics": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      },
+      "User_profile_projects": {
+        "type": "object",
+        "properties": {
+          "title": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
+          "dateStart": {
+            "type": "string"
+          },
+          "dateEnd": {
+            "type": "string"
+          },
+          "githubUrl": {
+            "type": "string"
+          },
+          "hostedUrl": {
+            "type": "string"
+          },
+          "images": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "skills": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      },
+      "User_profile_references": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "relationship": {
+            "type": "string"
+          },
+          "contactInfo": {
+            "type": "string"
+          },
+          "yearsKnown": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "knownFromWhere": {
+            "type": "string"
+          }
+        }
+      },
+      "User_profile": {
+        "type": "object",
+        "properties": {
+          "experience": {
+            "type": "array",
+            "items": {
+              "$ref": "#/definitions/User_profile_experience"
+            }
+          },
+          "education": {
+            "type": "array",
+            "items": {
+              "$ref": "#/definitions/User_profile_education"
+            }
+          },
+          "projects": {
+            "type": "array",
+            "items": {
+              "$ref": "#/definitions/User_profile_projects"
+            }
+          },
+          "skills": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "references": {
+            "type": "array",
+            "items": {
+              "$ref": "#/definitions/User_profile_references"
+            }
+          }
+        }
+      }
+    }
+  }
+  
+        
+
+    
