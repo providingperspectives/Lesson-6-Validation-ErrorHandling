@@ -1,6 +1,6 @@
 {
     "user":{
-        "username": "Isiakpon",
+        "username": "Isiakpona",
         "password": "james123R",
         "displayName": "Julius",
 
@@ -14,6 +14,8 @@
 
 
     },
+
+    
 
     "User_info": {
         "type": "object",

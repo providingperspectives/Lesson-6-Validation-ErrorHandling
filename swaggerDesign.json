@@ -8,8 +8,8 @@
       "email": "isi21001@byui.edu"
     },
     "license": {
-      "name": "Apache 2.0",
-      "url": "http://www.apache.org/licenses/LICENSE-2.0.html"
+      "name": "OAuthApi 2.0",
+      "url": "https://github.com/login/oauth/authorize?client_id=&{github_client_id}&{github_client_id}&redirect_url=&{githubredirecturl}?path=&{path}&scope=user:email"
     }
   },
   "host": "localhost:8080",
